@@ -1,0 +1,67 @@
+These Command Prompt Tricks Will Blow Your Mind!
+
+
+Change colors
+You can change color using the following command in cmd. 
+color <color-code>
+
+
+The following command will give you a list of all the colors you can use in cmd:
+help color
+
+
+The following command will change the color of the terminal:
+color 04
+This gives you a look and feel of a professional hacker!
+
+
+Change the Prompt in CMD
+You can change the prompt text in the cmd using the following command:
+prompt harry@hacker$G
+here $G is a special character for the '>' symbol
+
+
+Use the following command to learn about more special characters you can use with prompt command
+help prompt
+
+ 
+Change Title in CMD
+If you want to change the title in cmd, you can simply use the title command followed by the title. Following title command will change the cmd title to "Hacking in progress...":
+title Hacking in progress...
+
+
+Watch star wars movie in CMD
+Do you know that you can watch star wars movies in the cmd? Well if you don't, you need to fire the following command and you should be welcomed with the star wars movie:
+telnet towel.blinkenlights.nl
+
+
+If telnet doesn't work, make sure you turn it on by going into the Windows Features and clicking telnet!
+Start>Turn windows features on and off>Check telnetHide your folders using CMD
+
+
+Hide a Folder
+If you want to hide a folder named "harry" in a directory, you can use the following command:
+Attrib +h +s +r harry
+Once your folder is hidden, you can show it again by firing the following command:
+Attrib -h -s -r harry
+
+
+Copy Output to Clipboard
+ipconfig | clip
+
+
+CMD Command History Shortcuts
+You can use f7 key to see your command history in the prompt. 
+
+
+Create a Folder with reserved names (Like aux, con, etc.) 
+Do you know that you cannot create a folder named aux or con in windows?
+These are the reserved names that windows use for internal purposes.
+You can still create a folder named con or aux by firing the following command in cmd:
+md con\
+md aux\ 
+
+
+View all the installed programs on your PC
+You can view all the installed programs on your pc by firing the following command:
+wmic product get name
