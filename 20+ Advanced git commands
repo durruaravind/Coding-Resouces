@@ -61,3 +61,6 @@ $ git clean -nfd
 
 The below command will tar the project files without .git directory.
 $ tar cJf .tar.xz / --exclude-vcs
+
+Git command to add all files except one file (ignoring it)
+git add -u -except main/dontcheckmein.txt
