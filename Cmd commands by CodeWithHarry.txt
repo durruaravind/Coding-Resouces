@@ -65,3 +65,7 @@ md aux\
 View all the installed programs on your PC
 You can view all the installed programs on your pc by firing the following command:
 wmic product get name
+
+
+Command to open default code editor (vscode):
+code .
