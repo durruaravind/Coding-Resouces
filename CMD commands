@@ -43,3 +43,6 @@ wmic product get name
 
 12. Command to open default code editor (vscode):
 code .
+
+13. To know the password of connected wifi type in CMD:
+netsh wlan show profile name = <Wifi Name> key = clear
