@@ -1,0 +1,2 @@
+C:\WINDOWS\system32>powercfg /batteryreport /output "C:\battery-report.html"
+Battery life report saved to file path C:\battery-report.html.
