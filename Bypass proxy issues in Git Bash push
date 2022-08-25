@@ -1,0 +1,16 @@
+Whenver connected to proxy server, git push origin main will show error:
+"fatal: unable to access 'https://github.com/durruaravind/coding-solutions.git/': Could not resolve host: github.com
+
+SOLUTION:-
+git cofig --global http.proxy mySystemIP:@ProxyIP:ProxyPort
+mySystemIP= 10.32.4.180
+ProxyIP= 10.32.0.1
+ProxyPort= 8080
+Paste: $ git cofig --global http.proxy 10.32.4.180:@10.32.0.1:8080
+
+To check systemIP address:
+Open CMD >> type ipconfig/all >> check value of IPv4 Address
+
+To reset this bypass when you are on normal wifi:
+git config --global --unset http.proxy 
+git config --global --unset https.proxy
