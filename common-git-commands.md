@@ -21,17 +21,29 @@
   git push -u origin main
 
 # Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
+  use "git add <file>"
   
-  (use "git restore <file>..." to discard changes in working directory)
+  to update what will be committed
+  
+  use "git restore <file>"
+  
+  to discard changes in the working directory
 
 # Untracked files:
-  (use "git add <file>..." to include in what will be committed)
+  use "git add <file>"
+  
+  to include what will be committed
  
 # Changes to be committed:
-  (use "git restore --staged <file>..." to unstage)
+  use "git restore --staged <file>"
+  
+  to unstage
 
 # Changes not staged for commit:
-  (use "git add/rm <file>..." to update what will be committed)
+  git add/rm <file>
   
-  (use "git restore <file>..." to discard changes in working directory)
+  to update what will be committed
+  
+  use "git restore <file>"
+  
+  to discard changes in the working directory
